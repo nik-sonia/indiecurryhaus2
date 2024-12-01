@@ -1,0 +1,435 @@
+
+
+@font-face {
+  font-family: founder;
+  src: url(/indie-curry2/FoundersGroteskCondensed-Bold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #f1eede;
+  overflow-x: hidden;
+}
+.gallery2 {
+  cursor: pointer;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 span {
+  display: inline-block;
+}
+
+h3 span {
+  display: inline-block;
+}
+h3 span {
+  color: antiquewhite;
+  font-size: xx-large;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid rgb(205, 134, 134);
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.welcome {
+  /* font-family: "Unlock", serif; */
+  font-family: "Baloo 2", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+}
+
+.branch {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.maincontent {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  background-image: url(https://www.madamchutney.com/images/bg-new.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .maincontent {
+    background-attachment: scroll;
+  }
+  .menuphoto{
+    background-attachment: scroll;
+  }
+  .contactimage{
+    background-attachment: scroll;
+  }
+}
+
+
+.text-overlay {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-overlay h1 {
+  transform: translatey(-5);
+  transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s;
+}
+
+.text-overlay h1 {
+  font-size: 5vw;
+  color: white;
+}
+.text-overlay p {
+  font-size: 2vw;
+  color: white;
+}
+
+.card {
+  background-color: #f1eede;
+  border: none;
+}
+
+.diamond-border {
+  border: 8px solid #383a3b;
+  border-image: url(./diamondborder/d-border.svg) 33.33%round;
+  padding: 20px;
+}
+.branch {
+  color: white;
+}
+
+.reservation span:hover {
+  border-bottom: 2px solid black;
+  transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s;
+}
+
+.c-map-card__contact {
+  margin-bottom: 32px !important;
+  padding-bottom: 32px !important;
+  border-bottom: 1px solid rgba(56, 58, 59, 0.24) !important;
+}
+
+.c-map-card__details {
+  padding: 24px 0 0;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
+  text-align: center;
+}
+
+.c-map-card__time {
+  margin-bottom: 24px;
+}
+
+.c-map-card__time > div:nth-child(2) {
+  font-size: 20px;
+}
+
+.c-map-card__time:last-child {
+  margin-bottom: 0;
+}
+
+.c-map-card__opening-times h3 {
+  margin-bottom: 32px;
+  font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-size: 12px;
+}
+
+.c-map-card__contact h3 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.c-map-card__contact p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.details {
+  margin: 0 0 24px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.c-map-card__contact p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.c-footer__social {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2 / span 4;
+  margin: 24px 0 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 24px 0;
+  background-color: transparent;
+  font-family: "Cheltenham", Times, serif;
+  border-top: 1px solid rgba(56, 58, 59, 0.24);
+}
+
+.c-footer__social-link {
+  display: inline-block;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.c-footer a {
+  color: #383a3b;
+}
+.a {
+  font-style: italic;
+  transition: all 0.24s ease;
+}
+
+.form-border {
+  border: 4px solid #418cb1;
+  border-image: url(./diamondborder/d-border.svg) 33.33%round;
+  padding: 10px;
+}
+
+.form-border input {
+  background-color: #f1eede;
+}
+.form-border textarea {
+  background-color: #f1eede;
+}
+
+h5 {
+  font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.svganimate {
+  width: 100%;
+  height: 80vh;
+  mask-image: url(./star.svg/star.svg);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: 0%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+.svgimg {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+  background-image: url(./galleryphotos/7.JPG);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mainp {
+  width: 100%;
+  height: 100vh;
+  background-color: #f1eede;
+}
+
+.main3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #75a3ba;
+  position: relative;
+}
+
+.top {
+  width: 100%;
+  height: 50%;
+  background-color: #f1eede;
+  position: absolute;
+  top: 0%;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.center {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.bottom {
+  width: 100%;
+  height: 50%;
+  background-color: #f1eede;
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+}
+
+.main3 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22vw;
+  
+}
+
+.top-h {
+  bottom: 50%;
+}
+
+.bottom-h {
+  top: 0% !important;
+}
+
+.contentgallery {
+  width: 100%;
+  height: 100vh;
+  font-size: 4vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100vh;
+}
+
+
+
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.menuphoto {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+
+  background-image: url(./menuphotos/1.avif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  /* diamond border */
+
+  /* border: 4px solid #418cb1;
+  border-image: url(./diamondborder/d-border.svg) 33.33%round;
+  padding: 10px; */
+}
+
+.menubutton {
+  padding: 10px;
+  margin: 10px;
+  border: 1px;
+  border-radius: 8px;
+  background-color: darksalmon;
+}
+
+.menubutton:hover {
+  border: 1px solid white;
+}
+
+.menulink {
+  text-decoration: none;
+  color: white;
+}
+
+.menubutton i {
+  animation: movedown 2s infinite;
+  color: white;
+}
+
+@keyframes movedown {
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(5.3em);
+    opacity: 0;
+  }
+}
+
+.restaurants {
+  text-decoration: none;
+  color: black;
+}
+
+.maincontent {
+  position: relative;
+}
+
+.curry {
+  position: absolute;
+  margin-top: 8vw;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 1px solid white;
+}
+
+@media  (max-width:768px) {
+  .indie {
+    margin-bottom: 2rem;
+  }
+  .curry1{
+    margin-bottom: 2rem;
+    
+  }
+  .curry1 span{
+    font-size: 5vw;
+  }
+  .curry h4{
+    font-size:small ;
+  }
+  .indie{
+    font-size: 7vw;
+  }
+}
+
+.contactimage{
+  background-size: cover;
+  background-image: url(./reservationphotos/2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reservelink{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
